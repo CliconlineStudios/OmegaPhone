@@ -209,6 +209,11 @@ function cotizar() {
     document.getElementById("side").style.display = "none";
     document.getElementById("informacion").style.display = "none";
     document.getElementById("back").style.display = "block";
+    document.getElementById("sansung").style.display = "none";
+    document.getElementById("Iphone").style.display = "none";
+    document.getElementById("xiaomi").style.display = "none";
+    document.getElementById("Honor").style.display = "none";
+    document.getElementById("Realme").style.display = "none";
     conta=0;
     contador=1; 
     ids1();    
