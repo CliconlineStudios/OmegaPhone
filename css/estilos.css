@@ -392,6 +392,7 @@ padding: 7px 50px;
 	                     "producto4 producto5 producto6"
 	                     "tituloab2 tituloab2 tituloab2"
 						 "producto7 producto8 producto9"
+			             "tituloab3 tituloab3 tituloab3"
 						"producto10 producto11 producto12";
 
 	
@@ -412,7 +413,7 @@ padding: 7px 50px;
 
 .sansung .producto1 {
 	
-	grid-area: producto1;
+	grid-area: producto;
 }
 
 .sansung  img {
@@ -422,13 +423,9 @@ padding: 7px 50px;
 }
 
 .sansung .producto2 {
-	grid-area: producto2;
+	grid-area: producto;
 }
 
-.sansung .tituloab2 {
-	
-	grid-area: tituloab2;
-}
 
 @media screen  and  (max-width: 768px){
 .sansung img {width: 50%;
@@ -439,12 +436,13 @@ padding: 7px 50px;
 	
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-areas: "tituloab tituloab"
-	                            "producto1 producto2"
-								"producto3 producto4"
-							    "producto5 producto6"
-								"tituloab2 tituloab2"
-								"producto7 producto8"
-								"producto9 producto10";}								
+	                     "producto1 producto2"
+						 "producto3 producto4"
+						 "producto5 producto6"
+						 "producto7 producto8"
+						 "producto9 producto10"
+						 "producto11 producto12"
+						 "producto13 producto14";}								
 
 }
 
