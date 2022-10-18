@@ -358,7 +358,7 @@ document.querySelector("#submit").addEventListener("click", e => {
                     position: 'top-end',
                     icon: 'info',
                     title: 'Añadir a Contactos',
-                    footer: 'Tarjeta Demo',
+                    footer: 'Tarjeta Gold',
                     showConfirmButton: true
                    
                   })
@@ -376,7 +376,7 @@ document.querySelector("#submit").addEventListener("click", e => {
             icon: 'info',
             title: 'Omega Phone',
             text: 'Este Video Estara Disponible Próximamente',
-            footer: 'Tarjeta Demo'
+            footer: 'Tarjeta Gold'
             });
           
            
