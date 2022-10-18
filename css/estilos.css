@@ -457,13 +457,20 @@ padding: 7px 50px;
 	                     "producto1 producto2   producto3"
 	                     "producto4 producto5   producto6"
 						 "producto7 producto8   producto9"
-						 "producto10 producto11 producto12";
+						 "producto10 producto11 producto12"
+						 "tituloab2  tituloab2   tituloab2"
+						 "producto13 producto14 producto15";
 
 	
 }
 
 .Iphone .tituloab {
 	grid-area: tituloab;
+
+}
+
+.Iphone .tituloab2 {
+	grid-area: tituloab2;
 
 }
 
@@ -505,6 +512,7 @@ padding: 7px 50px;
 						 "producto7 producto8"
 						 "producto9 producto10"
 						 "producto11 producto12"
+						 "tituloab2   tituloab2"
 						 "producto13 producto14";}								
 
 }
