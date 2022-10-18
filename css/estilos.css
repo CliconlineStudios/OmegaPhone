@@ -447,17 +447,17 @@ padding: 7px 50px;
 
 .Iphone {
 	text-align: center;
+	align-items: center;
 	padding: 0px 10px;
 	display: none;
 	grid-gap: 8px;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(4, auto);
 	grid-template-areas: "tituloab  tituloab   tituloab"
-	                     "producto1 producto2 producto3"
-	                     "producto4 producto5 producto6"
-						 "producto7 producto8 producto9"
-						 "producto10 producto11 producto12"
-						 "tituloab2 tituloab2 tituloab2";
+	                     "producto1 producto2   producto3"
+	                     "producto4 producto5   producto6"
+						 "producto7 producto8   producto9"
+						 "producto10 producto11 producto12";
 
 	
 }
@@ -477,7 +477,7 @@ padding: 7px 50px;
 
 .Iphone .producto1 {
 	
-	grid-area: producto1;
+	grid-area: producto;
 }
 
 .Iphone  img {
@@ -487,12 +487,7 @@ padding: 7px 50px;
 }
 
 .Iphone .producto2 {
-	grid-area: producto2;
-}
-
-.Iphone .tituloab2 {
-	
-	grid-area: tituloab2;
+	grid-area: producto;
 }
 
 @media screen  and  (max-width: 768px){
@@ -504,16 +499,13 @@ padding: 7px 50px;
 	
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-areas: "tituloab tituloab"
-	                            "producto1 producto2"
-								"producto3 producto4"
-							    "producto5 producto6"
-								"producto7 producto8"
-								"producto9 producto10"
-								"producto11 producto12"
-								"tituloab2 tituloab2"
-								"producto13 producto14"
-								"producto15 producto16"
-								"producto17 producto18";}								
+	                     "producto1 producto2"
+						 "producto3 producto4"
+						 "producto5 producto6"
+						 "producto7 producto8"
+						 "producto9 producto10"
+						 "producto11 producto12"
+						 "producto13 producto14";}								
 
 }
 
