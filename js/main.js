@@ -32,7 +32,7 @@ function backweb() {
         document.getElementById("Iphone").style.display = "none";
         document.getElementById("sansung").style.display = "none";
         document.getElementById("Honor").style.display = "none";
-        document.getElementById("Realme").style.display = "none";
+        document.getElementById("marcas").style.display = "none";
         conta=0;
         contador=0;
         backarriba();
@@ -67,7 +67,7 @@ function back() {
         document.getElementById("Iphone").style.display = "none";
         document.getElementById("sansung").style.display = "none";
         document.getElementById("Honor").style.display = "none";
-        document.getElementById("Realme").style.display = "none";
+        document.getElementById("marcas").style.display = "none";
         conta=0;
         contador=0;
         backarriba();
@@ -96,7 +96,7 @@ function inicio() {
     document.getElementById("Iphone").style.display = "none";
     document.getElementById("xiaomi").style.display = "none";
     document.getElementById("Honor").style.display = "none";
-    document.getElementById("Realme").style.display = "none";
+    document.getElementById("marcas").style.display = "none";
     document.getElementById("screen4").style.display = "none";
     document.getElementById("side").style.display = "none";
     conta=0;
@@ -132,7 +132,7 @@ function catalogos() {
     document.getElementById("Iphone").style.display = "none";
     document.getElementById("xiaomi").style.display = "none";
     document.getElementById("Honor").style.display = "none";
-    document.getElementById("Realme").style.display = "none";
+    document.getElementById("marcas").style.display = "none";
     document.getElementById("back").style.display = "block";
     document.getElementById("side").style.display = "none";
     document.getElementById("informacion").style.display = "none";
@@ -191,9 +191,9 @@ function Honor() {
    
 }
 
-function Realme() {
+function marcas() {
     document.getElementById("portafolio").style.display = "none";
-    document.getElementById("Realme").style.display = "grid";
+    document.getElementById("marcas").style.display = "grid";
     document.getElementById("Honor").style.display = "none";
     document.getElementById("back").style.display = "block";
     document.getElementById("side").style.display = "none";
@@ -213,7 +213,7 @@ function cotizar() {
     document.getElementById("Iphone").style.display = "none";
     document.getElementById("xiaomi").style.display = "none";
     document.getElementById("Honor").style.display = "none";
-    document.getElementById("Realme").style.display = "none";
+    document.getElementById("marcas").style.display = "none";
     conta=0;
     contador=1; 
     ids1();    

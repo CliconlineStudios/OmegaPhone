@@ -653,9 +653,9 @@ padding: 7px 50px;
 
 }
 
-/* ----- ----- Realme ----- ----- */
+/* ----- ----- otras marcas ----- ----- */
 
-.Realme {
+.marcas {
 	text-align: center;
 	align-items: center;
 	padding: 0px 10px;
@@ -672,12 +672,12 @@ padding: 7px 50px;
 	
 }
 
-.Realme .tituloab {
+.marcas .tituloab {
 	grid-area: tituloab;
 
 }
 
-.Realme >div {
+.marcas >div {
 	border-radius: 10px;
 	overflow: hidden;
 	padding: 10px 5px;
@@ -685,27 +685,27 @@ padding: 7px 50px;
 	backdrop-filter: blur(2px);
 }
 
-.Realme .producto1 {
+.marcas .producto1 {
 	
 	grid-area: producto;
 }
 
-.Realme  img {
+.marcas  img {
 	width: 100%;
 	vertical-align: top;
 	border-radius: 10px
 }
 
-.Realme .producto2 {
+.marcas .producto2 {
 	grid-area: producto;
 }
 
 @media screen  and  (max-width: 768px){
-.Realme img {width: 50%;
+.marcas img {width: 50%;
 
 }
 
-.Realme {
+.marcas {
 	
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-areas: "tituloab tituloab"
