@@ -424,7 +424,8 @@ padding: 7px 50px;
 	grid-area: producto;
 }
 
-@media screen  and  (max-width: 768px){
+@media screen  and  (max-width: 768px)
+{
 .sansung img {width: 50%;
 
 }
@@ -597,10 +598,10 @@ padding: 7px 50px;
 	                     "producto4 producto5 producto6"
 	                     "tituloab2 tituloab2 tituloab2"
 						 "producto7 producto8 producto9"
-						"producto10 producto11 producto12";
+						"producto10 producto11 producto12";}
 
 	
-}
+
 
 .Honor .tituloab {
 	grid-area: tituloab;
@@ -647,9 +648,8 @@ padding: 7px 50px;
 	                            "producto1 producto2"
 								"producto3 producto4"
 							    "producto5 producto6"
-								"tituloab2 tituloab2"
 								"producto7 producto8"
-								"producto9 producto10";}								
+								"producto9 producto10";}							
 
 }
 
@@ -664,13 +664,12 @@ padding: 7px 50px;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(4, auto);
 	grid-template-areas: "tituloab  tituloab   tituloab"
-	                     "producto1 producto2   producto3"
-	                     "producto4 producto5   producto6"
-						 "producto7 producto8   producto9"
-						 "producto10 producto11 producto12";
+	                     "producto1 producto2  producto3"
+	                     "producto4 producto5  producto6"
+						 "producto7 producto8  producto9";}
 
 	
-}
+
 
 .marcas .tituloab {
 	grid-area: tituloab;
@@ -687,17 +686,44 @@ padding: 7px 50px;
 
 .marcas .producto1 {
 	
-	grid-area: producto;
+	grid-area: producto1;
 }
+
+.marcas .producto2 {
+	
+	grid-area: producto2;
+}
+.marcas .producto3 {
+	
+	grid-area: producto3;
+}
+.marcas .producto4 {
+	
+	grid-area: producto4;
+}
+.marcas .producto1 {
+	
+	grid-area: producto5;
+}
+.marcas .producto6 {
+	
+	grid-area: producto6;
+}
+.marcas .producto7 {
+	
+	grid-area: producto7;
+}
+
+.marcas .producto8 {
+	
+	grid-area: producto8;
+}
+
 
 .marcas  img {
 	width: 100%;
 	vertical-align: top;
 	border-radius: 10px
-}
-
-.marcas .producto2 {
-	grid-area: producto;
 }
 
 @media screen  and  (max-width: 768px){
@@ -712,10 +738,7 @@ padding: 7px 50px;
 	                     "producto1 producto2"
 						 "producto3 producto4"
 						 "producto5 producto6"
-						 "producto7 producto8"
-						 "producto9 producto10"
-						 "producto11 producto12"
-						 "producto13 producto14";}								
+						 "producto7 producto8";}								
 
 }
 
