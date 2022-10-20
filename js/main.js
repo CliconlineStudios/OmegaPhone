@@ -339,7 +339,13 @@ document.querySelector("#submit").addEventListener("click", e => {
         });
 
 
-  // saveperfil       
+  // saveperfil    
+  
+  function save(){
+    let url = `https://drive.google.com/u/0/uc?id=1nE5orCi4ecCHgMmW-ByGxza4nj73tQO-&export=download`;
+    window.open(url); 
+   }
+
         function ftuser() {
             Swal.fire({
                 text: 'CC. Espiral Local 51-52',
@@ -350,17 +356,15 @@ document.querySelector("#submit").addEventListener("click", e => {
                 showCancelButton: true,
           
             
-              }).then((result) => {
+            }).then((result) => {
                 if (result.isConfirmed) {
+                  save();
                   Swal.fire({
-                    title: 'Omega Phone',
-                    text: 'Disponible Próximamente',
                     position: 'top-end',
-                    icon: 'info',
-                    title: 'Añadir a Contactos',
-                    footer: 'Tarjeta Gold',
-                    showConfirmButton: true
-                   
+                    icon: 'success',
+                    title: 'Descarga Correcta',
+                    showConfirmButton: false,
+                    timer: 1500
                   })
                 }
               })
@@ -371,6 +375,19 @@ document.querySelector("#submit").addEventListener("click", e => {
 
 // alerta 
         function sms() {
+            Swal.fire({
+            showCloseButton: true,
+            icon: 'success',
+            title: 'Omega Phone',
+            text: 'Garantía Directa 12 Meses | Aplica únicamente en pagos en efectivo o vía transferencia',
+            footer: 'Garantia'
+            });
+          
+           
+          };
+
+          // alerta 
+        function sms2() {
             Swal.fire({
             showCloseButton: true,
             icon: 'info',
