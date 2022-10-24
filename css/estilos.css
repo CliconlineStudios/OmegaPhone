@@ -684,40 +684,12 @@ padding: 7px 50px;
 	backdrop-filter: blur(2px);
 }
 
-.marcas .producto1 {
+.marcas .producto {
 	
 	grid-area: producto1;
 }
 
-.marcas .producto2 {
-	
-	grid-area: producto2;
-}
-.marcas .producto3 {
-	
-	grid-area: producto3;
-}
-.marcas .producto4 {
-	
-	grid-area: producto4;
-}
-.marcas .producto1 {
-	
-	grid-area: producto5;
-}
-.marcas .producto6 {
-	
-	grid-area: producto6;
-}
-.marcas .producto7 {
-	
-	grid-area: producto7;
-}
 
-.marcas .producto8 {
-	
-	grid-area: producto8;
-}
 
 
 .marcas  img {
@@ -735,10 +707,10 @@ padding: 7px 50px;
 	
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-areas: "tituloab tituloab"
-	                     "producto1 producto2"
-						 "producto3 producto4"
-						 "producto5 producto6"
-						 "producto7 producto8";}								
+	                     "producto producto"
+						 "producto producto"
+						 "producto producto"
+						 "producto producto";}								
 
 }
 
