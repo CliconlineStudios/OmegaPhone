@@ -182,7 +182,7 @@ function xiaomi() {
 
 function Honor() {
     document.getElementById("portafolio").style.display = "none";
-    document.getElementById("Honor").style.display = "grid";
+    document.getElementById("Honor").style.display = "block";
     document.getElementById("back").style.display = "block";
     document.getElementById("side").style.display = "none";
     conta=0;
