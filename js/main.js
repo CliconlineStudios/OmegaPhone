@@ -193,7 +193,7 @@ function Honor() {
 
 function marcas() {
     document.getElementById("portafolio").style.display = "none";
-    document.getElementById("marcas").style.display = "grid";
+    document.getElementById("marcas").style.display = "block";
     document.getElementById("Honor").style.display = "none";
     document.getElementById("back").style.display = "block";
     document.getElementById("side").style.display = "none";
